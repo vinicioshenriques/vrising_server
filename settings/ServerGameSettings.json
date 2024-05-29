@@ -1,5 +1,5 @@
 {
-  "GameDifficulty": "Brutal",
+  "GameDifficulty": 2,
   "GameModeType": "PvP",
   "CastleDamageMode": "TimeRestricted",
   "SiegeWeaponHealth": "Normal",
@@ -35,14 +35,14 @@
   "PvPVampireRespawnModifier": 1.0,
   "CastleMinimumDistanceInFloors": 2,
   "ClanSize": 4,
-  "BloodDrainModifier": 0.5,
-  "DurabilityDrainModifier": 0.5,
+  "BloodDrainModifier": 0.4,
+  "DurabilityDrainModifier": 0.4,
   "GarlicAreaStrengthModifier": 1.0,
   "HolyAreaStrengthModifier": 1.0,
   "SilverStrengthModifier": 1.0,
   "SunDamageModifier": 1.0,
   "CastleDecayRateModifier": 0.5,
-  "CastleBloodEssenceDrainModifier": 0.5,
+  "CastleBloodEssenceDrainModifier": 0.4,
   "CastleSiegeTimer": 420.0,
   "CastleUnderAttackTimer": 60.0,
   "CastleRaidTimer": 600.0,
@@ -87,16 +87,6 @@
     "SiegePowerModifier": 1.0,
     "DamageReceivedModifier": 1.0,
     "ReviveCancelDelay": 5.0
-  },
-  "UnitStatModifiers_Global": {
-    "MaxHealthModifier": 1.3,
-    "PowerModifier": 1.1,
-    "LevelIncrease": 1
-  },
-  "UnitStatModifiers_VBlood": {
-    "MaxHealthModifier": 1.3,
-    "PowerModifier": 1.1,
-    "LevelIncrease": 2
   },
   "EquipmentStatModifiers_Global": {
     "MaxHealthModifier": 1.0,
@@ -152,10 +142,10 @@
   "PlayerInteractionSettings": {
     "TimeZone": "Local",
     "VSPlayerWeekdayTime": {
-      "StartHour": 20,
+      "StartHour": 0,
       "StartMinute": 0,
-      "EndHour": 22,
-      "EndMinute": 0
+      "EndHour": 23,
+      "EndMinute": 59
     },
     "VSPlayerWeekendTime": {
       "StartHour": 0,
@@ -164,10 +154,10 @@
       "EndMinute": 59
     },
     "VSCastleWeekdayTime": {
-      "StartHour": 20,
+      "StartHour": 0,
       "StartMinute": 0,
-      "EndHour": 22,
-      "EndMinute": 0
+      "EndHour": 23,
+      "EndMinute": 59
     },
     "VSCastleWeekendTime": {
       "StartHour": 0,
