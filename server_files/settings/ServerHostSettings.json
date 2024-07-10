@@ -1,0 +1,19 @@
+{
+  "Name": "Cervantinhos",
+  "Description": "Galerinha bacanuda",
+  "Port": 27015,
+  "QueryPort": 27016,
+  "MaxConnectedUsers": 10,
+  "MaxConnectedAdmins": 4,
+  "ServerFps": 30,
+  "SaveName": "world1",
+  "Password": "321321",
+  "Secure": true,
+  "ListOnMasterServer": true,
+  "ListOnSteam": true,
+  "AutoSaveCount": 5,
+  "AutoSaveInterval": 180,
+  "GameSettingsPreset": "",
+  "AdminOnlyDebugEvents": true,
+  "DisableDebugEvents": false
+}
